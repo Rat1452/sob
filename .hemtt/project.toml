@@ -1,0 +1,7 @@
+name = "Special Operations Brigade Aux Mod"
+author = "Special Operations Brigade Dev Team"
+prefix = "sob"
+mainprefix = "z"
+
+[hemtt.release]
+archive = false # Default: true
