@@ -3,3 +3,4 @@
 5||5||1||21||notice||Variable should not be all caps: PREP_RECOMPILE_START||all caps variable||/addons/main/XEH_preInit.sqf
 7||7||1||19||notice||Variable should not be all caps: PREP_RECOMPILE_END||all caps variable||/addons/main/XEH_preInit.sqf
 4||4||41||42||warning||padding a macro argument||padding a macro argument||/addons/main/XEH_postInit.sqf
+4||4||41||42||warning||padding a macro argument||padding a macro argument||/addons/main/XEH_postInit.sqf

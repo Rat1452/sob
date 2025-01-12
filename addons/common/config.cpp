@@ -6,7 +6,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"mti_template_main"};
+        requiredAddons[] = {"sob_main"};
         author = AUTHOR;
         authors[] = {""};
         url = ECSTRING(main,URL);

@@ -1,12 +1,14 @@
 #include "script_component.hpp"
 
+#include "config_list.hpp"
+
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {};
-        weapons[] = {};
+        weapons[] = { WEAPON_LIST };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"rsfd_main"};
+        requiredAddons[] = {"sob_main"};
         author = AUTHOR;
         authors[] = {""};
         url = CSTRING(URL);

@@ -8,5 +8,5 @@ class Mode_Burst;
 
 class CfgWeapons
 {
-	#include "weapons\cfgWeapons.hpp"
+	#include "weapons\primaries.hpp"
 };
