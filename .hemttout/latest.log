@@ -1,155 +1,149 @@
-2025-01-12T23:39:20.315351Z  INFO ThreadId(01) HEMTT 1.14.1 is available, please update
-2025-01-12T23:39:20.315385Z TRACE ThreadId(01) HEMTT is installed at: P:\Z\sob\hemtt.exe
-2025-01-12T23:39:20.315394Z TRACE ThreadId(01) version: 1.13.4
-2025-01-12T23:39:20.315396Z TRACE ThreadId(01) platform: windows
-2025-01-12T23:39:20.315401Z TRACE ThreadId(01) args: [
-    "P:\\Z\\sob\\hemtt.exe",
+2025-05-18T20:34:12.907092Z TRACE ThreadId(01) version: 1.15.1
+2025-05-18T20:34:12.907162Z TRACE ThreadId(01) platform: windows
+2025-05-18T20:34:12.907180Z TRACE ThreadId(01) args: [
+    "X:\\Z\\sob\\hemtt.exe",
     "build",
 ]
-2025-01-12T23:39:20.316822Z TRACE ThreadId(01) using temporary folder: "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\hemtt\\Z_sob"
-2025-01-12T23:39:20.316834Z TRACE ThreadId(01) using project folder: "P:\\Z\\sob"
-2025-01-12T23:39:20.316838Z TRACE ThreadId(01) using out folder: "P:\\Z\\sob\\.hemttout"
-2025-01-12T23:39:20.316940Z TRACE ThreadId(01) using build folder: "P:\\Z\\sob\\.hemttout\\build"
-2025-01-12T23:39:20.320227Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "P:\\Z\\sob\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\hemtt\\Z_sob\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "P:\\Z\\sob" } } } } } }] } } }
-2025-01-12T23:39:20.320472Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/weapons/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "P:\\Z\\sob\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\hemtt\\Z_sob\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "P:\\Z\\sob" } } } } } }] } } }
-2025-01-12T23:39:20.321649Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/common/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "P:\\Z\\sob\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\hemtt\\Z_sob\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "P:\\Z\\sob" } } } } } }] } } }
-2025-01-12T23:39:20.321944Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/common/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "P:\\Z\\sob\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\hemtt\\Z_sob\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "P:\\Z\\sob" } } } } } }] } } }
-2025-01-12T23:39:20.323118Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/main/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "P:\\Z\\sob\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\hemtt\\Z_sob\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "P:\\Z\\sob" } } } } } }] } } }
-2025-01-12T23:39:20.323676Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/main/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "P:\\Z\\sob\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\hemtt\\Z_sob\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "P:\\Z\\sob" } } } } } }] } } }
-2025-01-12T23:39:20.324105Z TRACE ThreadId(01) checking for version macro in VfsPath { path: "/addons/main/script_version.hpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "P:\\Z\\sob\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\hemtt\\Z_sob\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "P:\\Z\\sob" } } } } } }] } } }
-2025-01-12T23:39:20.328362Z  INFO ThreadId(01) Config loaded for Special Operations Brigade Aux Mod 1.0.0.0-ae4288ab
-2025-01-12T23:39:20.328412Z TRACE ThreadId(01) Scanning P:\Z\sob\addons for addons
-2025-01-12T23:39:20.328804Z  INFO ThreadId(01) Creating `build` version
-2025-01-12T23:39:20.328815Z TRACE ThreadId(01) phase: init (BOM Check) (start)
-2025-01-12T23:39:20.328821Z TRACE ThreadId(01) phase: init (BOM Check) (done)
-2025-01-12T23:39:20.328824Z TRACE ThreadId(01) phase: init (Hooks) (start)
-2025-01-12T23:39:20.328840Z TRACE ThreadId(01) no hooks folder
-2025-01-12T23:39:20.328843Z TRACE ThreadId(01) phase: init (Hooks) (done)
-2025-01-12T23:39:20.328845Z TRACE ThreadId(01) phase: init (Stringtables) (start)
-2025-01-12T23:39:20.328847Z TRACE ThreadId(01) phase: init (Stringtables) (done)
-2025-01-12T23:39:20.328849Z TRACE ThreadId(01) phase: init (SQF) (start)
-2025-01-12T23:39:20.667936Z TRACE ThreadId(01) phase: init (SQF) (done)
-2025-01-12T23:39:20.667949Z TRACE ThreadId(01) phase: init (Rapifier) (start)
-2025-01-12T23:39:20.667952Z TRACE ThreadId(01) phase: init (Rapifier) (done)
-2025-01-12T23:39:20.667953Z TRACE ThreadId(01) phase: init (Binarize) (start)
-2025-01-12T23:39:20.667961Z TRACE ThreadId(01) Using Binarize path from registry
-2025-01-12T23:39:20.668417Z TRACE ThreadId(01) junction link "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\hemtt\\Z_sob\\z\\sob\\addons\\common" => "P:\\Z\\sob\\addons\\common"
-2025-01-12T23:39:20.679457Z TRACE ThreadId(01) junction link "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\hemtt\\Z_sob\\z\\sob\\addons\\main" => "P:\\Z\\sob\\addons\\main"
-2025-01-12T23:39:20.690077Z TRACE ThreadId(01) junction link "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\hemtt\\Z_sob\\z\\sob_armoury\\addons\\weapons" => "P:\\Z\\sob\\addons\\weapons"
-2025-01-12T23:39:20.700596Z TRACE ThreadId(01) junction link "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\hemtt\\Z_sob\\x\\cba" => "P:\\Z\\sob\\include\\x\\cba"
-2025-01-12T23:39:20.710281Z TRACE ThreadId(01) junction link "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\hemtt\\Z_sob\\z\\ace" => "P:\\Z\\sob\\include\\z\\ace"
-2025-01-12T23:39:20.719576Z TRACE ThreadId(01) phase: init (Binarize) (done)
-2025-01-12T23:39:20.719589Z TRACE ThreadId(01) phase: init (Files) (start)
-2025-01-12T23:39:20.719592Z TRACE ThreadId(01) phase: init (Files) (done)
-2025-01-12T23:39:20.719596Z TRACE ThreadId(01) phase: check (BOM Check) (start)
-2025-01-12T23:39:20.720814Z TRACE ThreadId(01) phase: check (BOM Check) (done)
-2025-01-12T23:39:20.720820Z TRACE ThreadId(01) phase: check (Hooks) (start)
-2025-01-12T23:39:20.720823Z TRACE ThreadId(01) phase: check (Hooks) (done)
-2025-01-12T23:39:20.720829Z TRACE ThreadId(01) phase: check (Stringtables) (start)
-2025-01-12T23:39:20.720849Z TRACE ThreadId(01) phase: check (Stringtables) (done)
-2025-01-12T23:39:20.720852Z TRACE ThreadId(01) phase: check (SQF) (start)
-2025-01-12T23:39:20.720896Z TRACE ThreadId(01) phase: check (SQF) (done)
-2025-01-12T23:39:20.720900Z TRACE ThreadId(01) phase: check (Rapifier) (start)
-2025-01-12T23:39:20.720933Z TRACE ThreadId(01) phase: check (Rapifier) (done)
-2025-01-12T23:39:20.720937Z TRACE ThreadId(01) phase: check (Binarize) (start)
-2025-01-12T23:39:20.726745Z  INFO ThreadId(01) Validated 0 files for binarization
-2025-01-12T23:39:20.726760Z TRACE ThreadId(01) phase: check (Binarize) (done)
-2025-01-12T23:39:20.726763Z TRACE ThreadId(01) phase: check (Files) (start)
-2025-01-12T23:39:20.726765Z TRACE ThreadId(01) phase: check (Files) (done)
-2025-01-12T23:39:20.726768Z TRACE ThreadId(01) phase: pre_build (BOM Check) (start)
-2025-01-12T23:39:20.726770Z TRACE ThreadId(01) phase: pre_build (BOM Check) (done)
-2025-01-12T23:39:20.726772Z TRACE ThreadId(01) phase: pre_build (Hooks) (start)
-2025-01-12T23:39:20.726776Z TRACE ThreadId(01) phase: pre_build (Hooks) (done)
-2025-01-12T23:39:20.726778Z TRACE ThreadId(01) phase: pre_build (Stringtables) (start)
-2025-01-12T23:39:20.730609Z TRACE ThreadId(01) phase: pre_build (Stringtables) (done)
-2025-01-12T23:39:20.730615Z TRACE ThreadId(01) phase: pre_build (SQF) (start)
-2025-01-12T23:39:20.738542Z TRACE ThreadId(02) sqf compiling /addons/common/XEH_preStart.sqf
-2025-01-12T23:39:20.738542Z TRACE ThreadId(08) sqf compiling /addons/common/initSettings.sqf
-2025-01-12T23:39:20.738542Z TRACE ThreadId(07) sqf compiling /addons/common/XEH_preInit.sqf
-2025-01-12T23:39:20.738542Z TRACE ThreadId(05) sqf compiling /addons/main/XEH_postInit.sqf
-2025-01-12T23:39:20.738542Z TRACE ThreadId(03) sqf compiling /addons/common/functions/fnc_empty.sqf
-2025-01-12T23:39:20.738598Z TRACE ThreadId(10) sqf compiling /addons/main/functions/fnc_empty.sqf
-2025-01-12T23:39:20.738542Z TRACE ThreadId(04) sqf compiling /addons/common/XEH_postInit.sqf
-2025-01-12T23:39:20.738563Z TRACE ThreadId(21) sqf compiling /addons/main/XEH_preStart.sqf
-2025-01-12T23:39:20.738542Z TRACE ThreadId(06) sqf compiling /addons/main/XEH_preInit.sqf
-2025-01-12T23:39:20.770337Z  INFO ThreadId(01) Compiled 9 sqf files
-2025-01-12T23:39:20.770369Z TRACE ThreadId(01) phase: pre_build (SQF) (done)
-2025-01-12T23:39:20.770373Z TRACE ThreadId(01) phase: pre_build (Rapifier) (start)
-2025-01-12T23:39:20.801086Z  INFO ThreadId(01) Rapified 3 addon configs
-2025-01-12T23:39:20.801105Z TRACE ThreadId(01) phase: pre_build (Rapifier) (done)
-2025-01-12T23:39:20.801108Z TRACE ThreadId(01) phase: pre_build (Binarize) (start)
-2025-01-12T23:39:20.801181Z  INFO ThreadId(01) Binarized 0 files
-2025-01-12T23:39:20.801194Z TRACE ThreadId(01) phase: pre_build (Binarize) (done)
-2025-01-12T23:39:20.801198Z TRACE ThreadId(01) phase: pre_build (Files) (start)
-2025-01-12T23:39:20.801201Z TRACE ThreadId(01) phase: pre_build (Files) (done)
-2025-01-12T23:39:20.801206Z TRACE ThreadId(01) phase: build (start)
-2025-01-12T23:39:20.802410Z DEBUG ThreadId(01) creating "P:\\Z\\sob\\.hemttout\\build\\addons"
-2025-01-12T23:39:20.802498Z DEBUG ThreadId(01) building "addons/common" => "P:\\Z\\sob\\.hemttout\\build\\addons\\sob_common.pbo"
-2025-01-12T23:39:20.803653Z TRACE ThreadId(01) adding file "XEH_preInit.sqfc"
-2025-01-12T23:39:20.803771Z TRACE ThreadId(01) adding file "README.md"
-2025-01-12T23:39:20.803962Z TRACE ThreadId(01) adding file "XEH_PREP.hpp"
-2025-01-12T23:39:20.804152Z TRACE ThreadId(01) adding file "initSettings.sqf"
-2025-01-12T23:39:20.804336Z TRACE ThreadId(01) adding file "XEH_preInit.sqf"
-2025-01-12T23:39:20.804449Z TRACE ThreadId(01) adding file "initSettings.sqfc"
-2025-01-12T23:39:20.804552Z TRACE ThreadId(01) adding file "XEH_postInit.sqf"
-2025-01-12T23:39:20.804741Z TRACE ThreadId(01) adding file "script_component.hpp"
-2025-01-12T23:39:20.805237Z TRACE ThreadId(01) adding file "XEH_preStart.sqf"
-2025-01-12T23:39:20.805336Z TRACE ThreadId(01) adding file "config.bin"
-2025-01-12T23:39:20.805445Z TRACE ThreadId(01) adding file "CfgEventHandlers.hpp"
-2025-01-12T23:39:20.805546Z TRACE ThreadId(01) adding file "XEH_preStart.sqfc"
-2025-01-12T23:39:20.805648Z TRACE ThreadId(01) adding file "XEH_postInit.sqfc"
-2025-01-12T23:39:20.805755Z TRACE ThreadId(01) adding file "data\\moktech_industries_logo.paa"
-2025-01-12T23:39:20.805857Z TRACE ThreadId(01) adding file "functions\\fnc_empty.sqfc"
-2025-01-12T23:39:20.805966Z TRACE ThreadId(01) adding file "functions\\fnc_empty.sqf"
-2025-01-12T23:39:20.807102Z DEBUG ThreadId(01) "P:\\Z\\sob\\.hemttout\\build\\addons" already exists
-2025-01-12T23:39:20.807109Z DEBUG ThreadId(01) building "addons/main" => "P:\\Z\\sob\\.hemttout\\build\\addons\\sob_main.pbo"
-2025-01-12T23:39:20.808215Z TRACE ThreadId(01) adding file "XEH_postInit.sqf"
-2025-01-12T23:39:20.808377Z TRACE ThreadId(01) adding file "XEH_preInit.sqf"
-2025-01-12T23:39:20.808565Z TRACE ThreadId(01) adding file "script_mod.hpp"
-2025-01-12T23:39:20.808664Z TRACE ThreadId(01) adding file "XEH_preInit.sqfc"
-2025-01-12T23:39:20.808681Z TRACE ThreadId(01) adding file "XEH_postInit.sqfc"
-2025-01-12T23:39:20.809194Z TRACE ThreadId(01) adding file "script_component.hpp"
-2025-01-12T23:39:20.809344Z TRACE ThreadId(01) adding file "script_debug.hpp"
-2025-01-12T23:39:20.809458Z TRACE ThreadId(01) adding file "CfgEventHandlers.hpp"
-2025-01-12T23:39:20.809575Z TRACE ThreadId(01) adding file "XEH_PREP.hpp"
-2025-01-12T23:39:20.809688Z TRACE ThreadId(01) adding file "stringtable.xml"
-2025-01-12T23:39:20.809748Z TRACE ThreadId(01) adding file "XEH_preStart.sqfc"
-2025-01-12T23:39:20.809811Z TRACE ThreadId(01) adding file "XEH_preStart.sqf"
-2025-01-12T23:39:20.809925Z TRACE ThreadId(01) adding file "script_version.hpp"
-2025-01-12T23:39:20.809986Z TRACE ThreadId(01) adding file "config.bin"
-2025-01-12T23:39:20.810050Z TRACE ThreadId(01) adding file "CfgSettings.hpp"
-2025-01-12T23:39:20.810165Z TRACE ThreadId(01) adding file "script_macros.hpp"
-2025-01-12T23:39:20.810338Z TRACE ThreadId(01) adding file "README.md"
-2025-01-12T23:39:20.810400Z TRACE ThreadId(01) adding file "functions\\fnc_empty.sqfc"
-2025-01-12T23:39:20.810470Z TRACE ThreadId(01) adding file "functions\\fnc_empty.sqf"
-2025-01-12T23:39:20.811193Z DEBUG ThreadId(01) "P:\\Z\\sob\\.hemttout\\build\\addons" already exists
-2025-01-12T23:39:20.811201Z DEBUG ThreadId(01) building "addons/weapons" => "P:\\Z\\sob\\.hemttout\\build\\addons\\sob_weapons.pbo"
-2025-01-12T23:39:20.812387Z TRACE ThreadId(01) adding file "config.bin"
-2025-01-12T23:39:20.812449Z TRACE ThreadId(01) adding file "cfgWeapons.hpp"
-2025-01-12T23:39:20.812657Z TRACE ThreadId(01) adding file "cfgAmmo.hpp"
-2025-01-12T23:39:20.812765Z TRACE ThreadId(01) adding file "script_component.hpp"
-2025-01-12T23:39:20.813116Z TRACE ThreadId(01) adding file "config_list.hpp"
-2025-01-12T23:39:20.813289Z TRACE ThreadId(01) adding file "cfgMagazines.hpp"
-2025-01-12T23:39:20.813499Z TRACE ThreadId(01) adding file "magazines\\primaries.hpp"
-2025-01-12T23:39:20.813617Z TRACE ThreadId(01) adding file "ammo\\primaries.hpp"
-2025-01-12T23:39:20.813736Z TRACE ThreadId(01) adding file "weapons\\primaries.hpp"
-2025-01-12T23:39:20.814405Z  INFO ThreadId(01) Built 3 PBOs
-2025-01-12T23:39:20.814417Z TRACE ThreadId(01) phase: build (done)
-2025-01-12T23:39:20.814422Z TRACE ThreadId(01) phase: post_build (BOM Check) (start)
-2025-01-12T23:39:20.814425Z TRACE ThreadId(01) phase: post_build (BOM Check) (done)
-2025-01-12T23:39:20.814427Z TRACE ThreadId(01) phase: post_build (Hooks) (start)
-2025-01-12T23:39:20.814429Z TRACE ThreadId(01) phase: post_build (Hooks) (done)
-2025-01-12T23:39:20.814431Z TRACE ThreadId(01) phase: post_build (Stringtables) (start)
-2025-01-12T23:39:20.814433Z TRACE ThreadId(01) phase: post_build (Stringtables) (done)
-2025-01-12T23:39:20.814435Z TRACE ThreadId(01) phase: post_build (SQF) (start)
-2025-01-12T23:39:20.814440Z TRACE ThreadId(01) phase: post_build (SQF) (done)
-2025-01-12T23:39:20.814442Z TRACE ThreadId(01) phase: post_build (Rapifier) (start)
-2025-01-12T23:39:20.814444Z TRACE ThreadId(01) phase: post_build (Rapifier) (done)
-2025-01-12T23:39:20.814447Z TRACE ThreadId(01) phase: post_build (Binarize) (start)
-2025-01-12T23:39:20.814450Z TRACE ThreadId(01) phase: post_build (Binarize) (done)
-2025-01-12T23:39:20.814452Z TRACE ThreadId(01) phase: post_build (Files) (start)
-2025-01-12T23:39:20.869928Z DEBUG ThreadId(01) copying "/mod.cpp" => "P:\\Z\\sob\\.hemttout\\build\\mod.cpp"
-2025-01-12T23:39:20.870644Z  INFO ThreadId(01) Copied 1 files
-2025-01-12T23:39:20.870663Z TRACE ThreadId(01) phase: post_build (Files) (done)
-2025-01-12T23:39:20.878140Z TRACE ThreadId(01) writing ci annotations to .hemttout/ci_annotations.txt
-2025-01-12T23:39:20.878647Z TRACE ThreadId(01) wrote 7 ci annotations to .hemttout/ci_annotations.txt
+2025-05-18T20:34:12.907493Z TRACE ThreadId(01) using temporary folder: "C:\\Users\\Clemente\\AppData\\Local\\Temp\\hemtt\\Z_sob"
+2025-05-18T20:34:12.907506Z TRACE ThreadId(01) using project folder: "X:\\Z\\sob"
+2025-05-18T20:34:12.907539Z TRACE ThreadId(01) using out folder: "X:\\Z\\sob\\.hemttout"
+2025-05-18T20:34:12.907662Z TRACE ThreadId(01) using build folder: "X:\\Z\\sob\\.hemttout\\build"
+2025-05-18T20:34:12.912774Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/weapons/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "X:\\Z\\sob\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Clemente\\AppData\\Local\\Temp\\hemtt\\Z_sob\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "X:\\Z\\sob" } } } } } }] } } }
+2025-05-18T20:34:12.913669Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "X:\\Z\\sob\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Clemente\\AppData\\Local\\Temp\\hemtt\\Z_sob\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "X:\\Z\\sob" } } } } } }] } } }
+2025-05-18T20:34:12.916411Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/main/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "X:\\Z\\sob\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Clemente\\AppData\\Local\\Temp\\hemtt\\Z_sob\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "X:\\Z\\sob" } } } } } }] } } }
+2025-05-18T20:34:12.917037Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/main/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "X:\\Z\\sob\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Clemente\\AppData\\Local\\Temp\\hemtt\\Z_sob\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "X:\\Z\\sob" } } } } } }] } } }
+2025-05-18T20:34:12.917846Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/common/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "X:\\Z\\sob\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Clemente\\AppData\\Local\\Temp\\hemtt\\Z_sob\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "X:\\Z\\sob" } } } } } }] } } }
+2025-05-18T20:34:12.918871Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/common/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "X:\\Z\\sob\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Clemente\\AppData\\Local\\Temp\\hemtt\\Z_sob\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "X:\\Z\\sob" } } } } } }] } } }
+2025-05-18T20:34:12.920068Z TRACE ThreadId(01) checking for version macro in VfsPath { path: "/addons/main/script_version.hpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "X:\\Z\\sob\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Clemente\\AppData\\Local\\Temp\\hemtt\\Z_sob\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "X:\\Z\\sob" } } } } } }] } } }
+2025-05-18T20:34:12.926303Z  INFO ThreadId(01) Config loaded for Special Operations Brigade Aux Mod 1.0.0.0-b65793df
+2025-05-18T20:34:12.926355Z TRACE ThreadId(01) Scanning X:\Z\sob\addons for addons
+2025-05-18T20:34:12.926861Z  INFO ThreadId(01) Creating `build` version
+2025-05-18T20:34:12.926878Z TRACE ThreadId(01) phase: init (BOM Check) (start)
+2025-05-18T20:34:12.926885Z TRACE ThreadId(01) phase: init (BOM Check) (done)
+2025-05-18T20:34:12.926889Z TRACE ThreadId(01) phase: init (Hooks) (start)
+2025-05-18T20:34:12.926916Z TRACE ThreadId(01) no hooks folder
+2025-05-18T20:34:12.926922Z TRACE ThreadId(01) phase: init (Hooks) (done)
+2025-05-18T20:34:12.926926Z TRACE ThreadId(01) phase: init (SQF) (start)
+2025-05-18T20:34:13.349943Z TRACE ThreadId(01) phase: init (SQF) (done)
+2025-05-18T20:34:13.349957Z TRACE ThreadId(01) phase: init (Rapifier) (start)
+2025-05-18T20:34:13.349962Z TRACE ThreadId(01) phase: init (Rapifier) (done)
+2025-05-18T20:34:13.349967Z TRACE ThreadId(01) phase: init (Binarize) (start)
+2025-05-18T20:34:13.349977Z TRACE ThreadId(01) Using Binarize path from registry
+2025-05-18T20:34:13.350004Z TRACE ThreadId(01) phase: init (Binarize) (done)
+2025-05-18T20:34:13.350008Z TRACE ThreadId(01) phase: init (Files) (start)
+2025-05-18T20:34:13.350013Z TRACE ThreadId(01) phase: init (Files) (done)
+2025-05-18T20:34:13.350016Z TRACE ThreadId(01) phase: init (Stringtables) (start)
+2025-05-18T20:34:13.350021Z TRACE ThreadId(01) phase: init (Stringtables) (done)
+2025-05-18T20:34:13.350025Z TRACE ThreadId(01) phase: check (BOM Check) (start)
+2025-05-18T20:34:13.351570Z TRACE ThreadId(01) phase: check (BOM Check) (done)
+2025-05-18T20:34:13.351578Z TRACE ThreadId(01) phase: check (Hooks) (start)
+2025-05-18T20:34:13.351583Z TRACE ThreadId(01) phase: check (Hooks) (done)
+2025-05-18T20:34:13.351587Z TRACE ThreadId(01) phase: check (SQF) (start)
+2025-05-18T20:34:13.351649Z TRACE ThreadId(01) phase: check (SQF) (done)
+2025-05-18T20:34:13.351654Z TRACE ThreadId(01) phase: check (Rapifier) (start)
+2025-05-18T20:34:13.351695Z TRACE ThreadId(01) phase: check (Rapifier) (done)
+2025-05-18T20:34:13.351699Z TRACE ThreadId(01) phase: check (Binarize) (start)
+2025-05-18T20:34:13.362434Z  INFO ThreadId(01) Validated 0 files for binarization
+2025-05-18T20:34:13.362443Z TRACE ThreadId(01) phase: check (Binarize) (done)
+2025-05-18T20:34:13.362449Z TRACE ThreadId(01) phase: check (Files) (start)
+2025-05-18T20:34:13.362453Z TRACE ThreadId(01) phase: check (Files) (done)
+2025-05-18T20:34:13.362457Z TRACE ThreadId(01) phase: check (Stringtables) (start)
+2025-05-18T20:34:13.362487Z TRACE ThreadId(01) phase: check (Stringtables) (done)
+2025-05-18T20:34:13.362493Z TRACE ThreadId(01) phase: pre_build (BOM Check) (start)
+2025-05-18T20:34:13.362497Z TRACE ThreadId(01) phase: pre_build (BOM Check) (done)
+2025-05-18T20:34:13.362503Z TRACE ThreadId(01) phase: pre_build (Hooks) (start)
+2025-05-18T20:34:13.362512Z TRACE ThreadId(01) phase: pre_build (Hooks) (done)
+2025-05-18T20:34:13.362516Z TRACE ThreadId(01) phase: pre_build (SQF) (start)
+2025-05-18T20:34:13.376433Z TRACE ThreadId(03) sqf compiling /addons/common/XEH_preInit.sqf
+2025-05-18T20:34:13.376446Z TRACE ThreadId(04) sqf compiling /addons/common/functions/fnc_empty.sqf
+2025-05-18T20:34:13.376466Z TRACE ThreadId(05) sqf compiling /addons/common/initSettings.sqf
+2025-05-18T20:34:13.376497Z TRACE ThreadId(06) sqf compiling /addons/common/XEH_preStart.sqf
+2025-05-18T20:34:13.376515Z TRACE ThreadId(07) sqf compiling /addons/common/XEH_postInit.sqf
+2025-05-18T20:34:13.376532Z TRACE ThreadId(08) sqf compiling /addons/main/XEH_postInit.sqf
+2025-05-18T20:34:13.377775Z TRACE ThreadId(05) sqf compiling /addons/main/XEH_preInit.sqf
+2025-05-18T20:34:13.401359Z TRACE ThreadId(07) sqf compiling /addons/main/functions/fnc_empty.sqf
+2025-05-18T20:34:13.402604Z TRACE ThreadId(08) sqf compiling /addons/main/XEH_preStart.sqf
+2025-05-18T20:34:13.427796Z  INFO ThreadId(01) Compiled 9 sqf files
+2025-05-18T20:34:13.427819Z TRACE ThreadId(01) phase: pre_build (SQF) (done)
+2025-05-18T20:34:13.427825Z TRACE ThreadId(01) phase: pre_build (Rapifier) (start)
+2025-05-18T20:34:13.472277Z  INFO ThreadId(01) Rapified 3 addon configs
+2025-05-18T20:34:13.472311Z TRACE ThreadId(01) phase: pre_build (Rapifier) (done)
+2025-05-18T20:34:13.472318Z TRACE ThreadId(01) phase: pre_build (Binarize) (start)
+2025-05-18T20:34:13.472329Z TRACE ThreadId(01) phase: pre_build (Binarize) (done)
+2025-05-18T20:34:13.472334Z TRACE ThreadId(01) phase: pre_build (Files) (start)
+2025-05-18T20:34:13.472338Z TRACE ThreadId(01) phase: pre_build (Files) (done)
+2025-05-18T20:34:13.472344Z TRACE ThreadId(01) phase: pre_build (Stringtables) (start)
+2025-05-18T20:34:13.480071Z TRACE ThreadId(01) binned stringtable"/addons/main/stringtable.bin" [Unique 1]
+2025-05-18T20:34:13.481740Z  INFO ThreadId(01) Checked 1 stringtables
+2025-05-18T20:34:13.481760Z TRACE ThreadId(01) phase: pre_build (Stringtables) (done)
+2025-05-18T20:34:13.481768Z TRACE ThreadId(01) phase: build (start)
+2025-05-18T20:34:13.483189Z DEBUG ThreadId(01) creating "X:\\Z\\sob\\.hemttout\\build\\addons"
+2025-05-18T20:34:13.483276Z DEBUG ThreadId(01) building "addons/common" => "X:\\Z\\sob\\.hemttout\\build\\addons\\sob_common.pbo"
+2025-05-18T20:34:13.485096Z TRACE ThreadId(01) adding file "XEH_postInit.sqf"
+2025-05-18T20:34:13.485306Z TRACE ThreadId(01) adding file "script_component.hpp"
+2025-05-18T20:34:13.485410Z TRACE ThreadId(01) adding file "initSettings.sqfc"
+2025-05-18T20:34:13.485520Z TRACE ThreadId(01) adding file "CfgEventHandlers.hpp"
+2025-05-18T20:34:13.485716Z TRACE ThreadId(01) adding file "XEH_preStart.sqf"
+2025-05-18T20:34:13.485820Z TRACE ThreadId(01) adding file "XEH_preInit.sqfc"
+2025-05-18T20:34:13.485832Z TRACE ThreadId(01) adding file "config.bin"
+2025-05-18T20:34:13.485939Z TRACE ThreadId(01) adding file "initSettings.sqf"
+2025-05-18T20:34:13.486229Z TRACE ThreadId(01) adding file "README.md"
+2025-05-18T20:34:13.486333Z TRACE ThreadId(01) adding file "XEH_postInit.sqfc"
+2025-05-18T20:34:13.486343Z TRACE ThreadId(01) adding file "XEH_preStart.sqfc"
+2025-05-18T20:34:13.486767Z TRACE ThreadId(01) adding file "XEH_preInit.sqf"
+2025-05-18T20:34:13.486962Z TRACE ThreadId(01) adding file "XEH_PREP.hpp"
+2025-05-18T20:34:13.487249Z TRACE ThreadId(01) adding file "data\\moktech_industries_logo.paa"
+2025-05-18T20:34:13.487357Z TRACE ThreadId(01) adding file "functions\\fnc_empty.sqfc"
+2025-05-18T20:34:13.487470Z TRACE ThreadId(01) adding file "functions\\fnc_empty.sqf"
+2025-05-18T20:34:13.488559Z DEBUG ThreadId(01) "X:\\Z\\sob\\.hemttout\\build\\addons" already exists
+2025-05-18T20:34:13.488571Z DEBUG ThreadId(01) building "addons/main" => "X:\\Z\\sob\\.hemttout\\build\\addons\\sob_main.pbo"
+2025-05-18T20:34:13.491886Z TRACE ThreadId(01) adding file "script_version.hpp"
+2025-05-18T20:34:13.492153Z TRACE ThreadId(01) adding file "XEH_postInit.sqf"
+2025-05-18T20:34:13.492349Z TRACE ThreadId(01) adding file "XEH_preInit.sqf"
+2025-05-18T20:34:13.492585Z TRACE ThreadId(01) adding file "script_debug.hpp"
+2025-05-18T20:34:13.492701Z TRACE ThreadId(01) adding file "XEH_preInit.sqfc"
+2025-05-18T20:34:13.492714Z TRACE ThreadId(01) adding file "XEH_postInit.sqfc"
+2025-05-18T20:34:13.492826Z TRACE ThreadId(01) adding file "CfgEventHandlers.hpp"
+2025-05-18T20:34:13.493026Z TRACE ThreadId(01) adding file "README.md"
+2025-05-18T20:34:13.493284Z TRACE ThreadId(01) adding file "script_mod.hpp"
+2025-05-18T20:34:13.493613Z TRACE ThreadId(01) adding file "script_macros.hpp"
+2025-05-18T20:34:13.494029Z TRACE ThreadId(01) adding file "XEH_preStart.sqfc"
+2025-05-18T20:34:13.494046Z TRACE ThreadId(01) adding file "config.bin"
+2025-05-18T20:34:13.494178Z TRACE ThreadId(01) adding file "CfgSettings.hpp"
+2025-05-18T20:34:13.494493Z TRACE ThreadId(01) adding file "script_component.hpp"
+2025-05-18T20:34:13.494682Z TRACE ThreadId(01) adding file "XEH_PREP.hpp"
+2025-05-18T20:34:13.494785Z TRACE ThreadId(01) adding file "stringtable.bin"
+2025-05-18T20:34:13.495266Z TRACE ThreadId(01) adding file "XEH_preStart.sqf"
+2025-05-18T20:34:13.495454Z TRACE ThreadId(01) adding file "functions\\fnc_empty.sqf"
+2025-05-18T20:34:13.495550Z TRACE ThreadId(01) adding file "functions\\fnc_empty.sqfc"
+2025-05-18T20:34:13.496385Z DEBUG ThreadId(01) "X:\\Z\\sob\\.hemttout\\build\\addons" already exists
+2025-05-18T20:34:13.496395Z DEBUG ThreadId(01) building "addons/weapons" => "X:\\Z\\sob\\.hemttout\\build\\addons\\sob_weapons.pbo"
+2025-05-18T20:34:13.499026Z TRACE ThreadId(01) adding file "config.bin"
+2025-05-18T20:34:13.499133Z TRACE ThreadId(01) adding file "cfgMagazines.hpp"
+2025-05-18T20:34:13.499505Z TRACE ThreadId(01) adding file "config_list.hpp"
+2025-05-18T20:34:13.500058Z TRACE ThreadId(01) adding file "script_component.hpp"
+2025-05-18T20:34:13.500325Z TRACE ThreadId(01) adding file "cfgAmmo.hpp"
+2025-05-18T20:34:13.500504Z TRACE ThreadId(01) adding file "cfgWeapons.hpp"
+2025-05-18T20:34:13.500684Z TRACE ThreadId(01) adding file "weapons\\primaries.hpp"
+2025-05-18T20:34:13.500867Z TRACE ThreadId(01) adding file "magazines\\primaries.hpp"
+2025-05-18T20:34:13.501052Z TRACE ThreadId(01) adding file "ammo\\primaries.hpp"
+2025-05-18T20:34:13.501995Z  INFO ThreadId(01) Built 3 PBOs
+2025-05-18T20:34:13.502007Z TRACE ThreadId(01) phase: build (done)
+2025-05-18T20:34:13.502016Z TRACE ThreadId(01) phase: post_build (BOM Check) (start)
+2025-05-18T20:34:13.502020Z TRACE ThreadId(01) phase: post_build (BOM Check) (done)
+2025-05-18T20:34:13.502025Z TRACE ThreadId(01) phase: post_build (Hooks) (start)
+2025-05-18T20:34:13.502030Z TRACE ThreadId(01) phase: post_build (Hooks) (done)
+2025-05-18T20:34:13.502034Z TRACE ThreadId(01) phase: post_build (SQF) (start)
+2025-05-18T20:34:13.502043Z TRACE ThreadId(01) phase: post_build (SQF) (done)
+2025-05-18T20:34:13.502047Z TRACE ThreadId(01) phase: post_build (Rapifier) (start)
+2025-05-18T20:34:13.502051Z TRACE ThreadId(01) phase: post_build (Rapifier) (done)
+2025-05-18T20:34:13.502056Z TRACE ThreadId(01) phase: post_build (Binarize) (start)
+2025-05-18T20:34:13.502059Z TRACE ThreadId(01) phase: post_build (Binarize) (done)
+2025-05-18T20:34:13.502064Z TRACE ThreadId(01) phase: post_build (Files) (start)
+2025-05-18T20:34:13.545699Z DEBUG ThreadId(01) copying "/mod.cpp" => "X:\\Z\\sob\\.hemttout\\build\\mod.cpp"
+2025-05-18T20:34:13.546629Z  INFO ThreadId(01) Copied 1 files
+2025-05-18T20:34:13.546647Z TRACE ThreadId(01) phase: post_build (Files) (done)
+2025-05-18T20:34:13.546652Z TRACE ThreadId(01) phase: post_build (Stringtables) (start)
+2025-05-18T20:34:13.546657Z TRACE ThreadId(01) phase: post_build (Stringtables) (done)
+2025-05-18T20:34:13.558108Z TRACE ThreadId(01) writing ci annotations to .hemttout/ci_annotations.txt
+2025-05-18T20:34:13.559156Z TRACE ThreadId(01) wrote 8 ci annotations to .hemttout/ci_annotations.txt

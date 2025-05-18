@@ -39,3 +39,77 @@ class GVAR(DC15A): JLTS_DC15A_plastic {
 		};
 	};
 };
+
+class GVAR(DC15L): 3AS_DC15L_F{
+	author = AUTHOR;
+	displayName = "[SOB] DC-15L";
+	baseWeapon = QGVAR(DC15L);
+	magazines[] = {QGVAR(Rifle_mag)};
+
+	class WeaponSlotsInfo: WeaponSlotsInfo {
+		mass = 97;
+		class CowsSlot : CowsSlot {
+			displayName = "Optics Slot";
+			iconPicture = "\A3\Weapons_F\Data\UI\attachment_top.paa";
+			iconPinpoint = "Bottom";
+			iconPosition[] = {0.5,0.35};
+			iconScale = 0.2;
+			linkProxy = "\a3\data_f\proxies\weapon_slots\TOP";
+			scope = 0;
+			compatibleItems[] = {"optic_lrps"};
+
+			class MuzzleSlot: MuzzleSlot {
+				linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
+				compatibleItems[] = {"muzzle_snds_L"};
+				iconPosition[] = {0,0.45};
+				iconScale = 0.2;
+			};
+
+			class PointerSlot: PointerSlot {
+				linkProxy = "\A3\data_f\proxies\weapon_slots\SIDE";
+				compatibleItems[] = {"acc_pointer_IR"};
+			};
+
+			class UnderBarrelSlot: UnderBarrelSlot {
+				compatibleItems[] = {"bipod_O1_F_blk"};
+			};
+		};
+	};
+};
+
+class GVAR(Valeken): 3AS_Valken38X_F{
+	author = AUTHOR;
+	displayName = "[SOB] Valeken";
+	baseWeapon = QGVAR(Valeken);
+	magazines[] = {QGVAR(Sniper_mag)};
+
+	class WeaponSlotsInfo: WeaponSlotsInfo {
+		mass = 97;
+		class CowsSlot : CowsSlot {
+			displayName = "Optics Slot";
+			iconPicture = "\A3\Weapons_F\Data\UI\attachment_top.paa";
+			iconPinpoint = "Bottom";
+			iconPosition[] = {0.5,0.35};
+			iconScale = 0.2;
+			linkProxy = "\a3\data_f\proxies\weapon_slots\TOP";
+			scope = 0;
+			compatibleItems[] = {"optic_lrps"};
+
+			class MuzzleSlot: MuzzleSlot {
+				linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
+				compatibleItems[] = {"muzzle_snds_L"};
+				iconPosition[] = {0,0.45};
+				iconScale = 0.2;
+			};
+
+			class PointerSlot: PointerSlot {
+				linkProxy = "\A3\data_f\proxies\weapon_slots\SIDE";
+				compatibleItems[] = {"acc_pointer_IR"};
+			};
+
+			class UnderBarrelSlot: UnderBarrelSlot {
+				compatibleItems[] = {"bipod_O1_F_blk"};
+			};
+		};
+	};
+};

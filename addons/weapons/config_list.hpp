@@ -1,1 +1,3 @@
-#define WEAPON_LIST ""
+#define WEAPON_LIST QGVAR(DC15A),\
+QGVAR(DC15L),\
+QGVAR(Valeken)
