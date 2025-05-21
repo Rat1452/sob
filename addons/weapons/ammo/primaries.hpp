@@ -15,15 +15,3 @@ class GVAR(Base_Ammo): JLTS_bullet_carbine_blue
 	coefgravity = 0.001;
 	deflecting = 0;
 };
-
-class GVAR(Rifle_Ammo): GVAR(Base_Ammo)
-{
- caliber = 2;
- hit = 13;
-};
-
-class GVAR(Sniper_Ammo): GVAR(Base_Ammo)
-{
- caliber = 10;
- hit = 20;
-};
